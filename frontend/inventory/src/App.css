@@ -1,0 +1,209 @@
+/* src/App.css */
+
+/* Center the content inside the body */
+body {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  background-color: #f4f4f4; /* Light background for better contrast */
+}
+
+/* Container for the table */
+.table-container {
+  width: 80%; /* You can adjust the width as needed */
+  max-width: 1200px; /* Optional: maximum width for larger screens */
+  margin: 0 auto; /* Centering */
+  padding: 20px; /* Add some padding */
+  background-color: white; /* Optional: background color for better visibility */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: box shadow for aesthetics */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Styling for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* CreateProductForm.css */
+.create-product-form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.create-product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: poi;
+}
+
+/* CreateProductForm.css */
+.create-product-form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.create-product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.success-message {
+  color: #28a745;
+  font-size: 16px;
+  text-align: center;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 16px;
+  text-align: center;
+}
+/* CreateProductForm.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+button:disabled {
+  background-color: #791212;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Basic styling for the form container */
+
+/* Styling for each form field container */
+div {
+  margin-bottom: 5px;
+}
+
+/* Basic styling for form labels */
